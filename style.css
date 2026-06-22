@@ -1,0 +1,21 @@
+
+h2{
+    color:orange
+
+}
+label{
+    color: indigo
+}
+.me {
+color:aqua
+    }
+#console{
+    color:black
+}
+h4 {
+    text-transform:lowercase;
+    text-shadow:10px 12px 5px;
+}
+tr:nth-child(odd){
+border:2px dashed pink;
+}
