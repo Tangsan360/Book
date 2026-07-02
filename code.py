@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 # def total(*args):
 #     result=0
 #     for arg in args:
@@ -123,18 +124,24 @@
 #     return kwargs
 
 # print(shop_items(name="Kofi",age=15,occupation= "Python Programmer"))
-class student :
-    def __init__(self,college,course):
-        self.college = college
-        self.course = course
-        def method():
-            print(f"you can only offer {course}")
-    
-class individual(student):
-    def __init__(self,name,age,college,course):
-        super.__init__(college,course)
-        self.name = name
-        self.age = age
+# class student :
+#     def __init__(self,college,course):
+#         self.college = college
+#         self.course = course
+#     def method(self):
+#         print(f"you can only offer {self.course}")
+
+# instance = student("Basic and Applied Sciences","Mathematical science")
+# print(instance.method())
+# print(instance.course)
+@dataclass
+class anime :
+    name:str
+    quantity:str
+
+genres = anime("legend of shield hero",19)
+print(genres.name)
+
 
         
 
