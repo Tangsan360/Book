@@ -8,3 +8,5 @@ let string1 = "under";
  let number2 = "56"
  console.log(number1 + number2);
  console.log(number1 - number2);
+ let array = ['man','woman','child'];
+ console.log(array.slice(-2));

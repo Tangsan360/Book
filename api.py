@@ -7,6 +7,6 @@ story_book =[
     story_books(id=1,name="Beauty and the beast",copies=11),
     story_books(id=2,name="Romeo and Julliet",copies=12)
 ]
-@app.get("/story_books/{story_books_id}")
+@app.get("/story_books")
 async def read():
-    return story_book[id-1]
+    return story_book

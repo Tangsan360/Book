@@ -58,18 +58,18 @@
 # print(date_of_birth(list_items[4],"20-25",5,30))
 
 
-def characters(string_1,string_2) :
-    same_characters = []
-    for i in string_2 :
-        for j in string_1 :
-            if i==j :
-                print(i)
-                same_characters.append(i)               
-    number = len(same_characters)
-    return number
+# def characters(string_1,string_2) :
+#     same_characters = []
+#     for i in string_2 :
+#         for j in string_1 :
+#             if i==j :
+#                 print(i)
+#                 same_characters.append(i)               
+#     number = len(same_characters)
+#     return number
 
-case_1 = characters("camel","nand")
-print(case_1)
+# case_1 = characters("camel","nand")
+# print(case_1)
 
 
     
