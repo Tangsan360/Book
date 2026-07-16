@@ -13,8 +13,31 @@
     </div>
     <div id="auth-choices">
         <p>Please sign in or create an account to get started.</p>
-        <button class="google-btn"><img src=""></button>
+        <button class="google-btn"><img src="google.png">
+        Sign in with Google</button>
+
+        <div><span>or</span></div>
+    
+        <button class="register-button" id="show-register-form">Create an Account</button>
     </div>
+    <form action="register-form" style="display:none;">
+        <p>Set up your new account</p>
+        <input type="text"
+        placeholder="Username" required
+        class="form-input">
+        <input type="email"
+        placeholder="Email Address" required
+        class="form-input">
+        <input type="password"
+        placeholder="Password" required
+        class="form-input">
+        <button type="submit"
+        class="register-btn">Sign Up</button>
+        <button type="button" id="back-to-choices" class="back-link">Back
+
+        </button>
+    </form>
+        </div>
     </section>
     
 </body>
